@@ -3,13 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Saket Gupta - Resume</title>
+  <title>Saket Gupta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <nav>
-    <span>Saket Gupta</span>
-    <ul>
+  <nav id="navbar">
+    <span class="nav-name">Saket Gupta</span>
+    <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#education">Education</a></li>
@@ -19,21 +23,21 @@
   </nav>
 
   <section id="hero">
-    <h1>Saket Gupta</h1>
-    <p>product/design, developer, founder, explorer</p>
+    <h1>Saket<br>Gupta</h1>
+    <p class="tagline">product/design, developer, founder, explorer</p>
   </section>
 
   <hr>
 
   <section id="about">
-    <h2>About</h2>
-    <p>
+    <h2 class="section-label">About</h2>
+    <p class="summary-text">
       it all started when i was 12 years old, i saw my brother sitting on his computer all day long doing something, i was wondering how can someone sit on the computer for the all day and not get bored. that's when i started with python, it blew my mind, the power it had, the amount of things we could do with it, and the journey continued from there i learned a lot of languages such as python, js, c, etc etc till i was 14 and even worked as a developer in one of my brothers startup, that's when i was introduced to the business world and the endless possibilities it had, then i got into designing for a website i wanted to make, and then boom my brain was in another world again seeing the power good designs held and then i explored the designing field, ui, ux, graphic, ps, etc. i then started building some startups of my own, building various ideas, also trying freelancing side by side. reading books, learning new things, exploring new areas, business, money, talking skills, development, designing and the list goes on and on.
     </p>
-    <p>
+    <p class="summary-text">
       by now, you would have realised that i love learning. as people call it, i'm a generalist. i build products and ship it out to people. i like bringing change. right now, i've taken roles more than i can count on all my fingers. this is to say, i'm exploring.
     </p>
-    <p>
+    <p class="summary-text">
       i could have listed down my achievements but i'd rather not. this section is about me, and my achievements are a reflection of my work. this section is about me, and all i've mentioned is who i am. glad to have you here :)
     </p>
   </section>
@@ -41,124 +45,150 @@
   <hr>
 
   <section id="experience">
-    <h2>Experience</h2>
+    <h2 class="section-label">Experience</h2>
 
-    <div>
-      <h3>unlikefraction</h3>
-      <p>Co-Founder</p>
-      <p>Jan 2025 — Present</p>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3>unlikefraction</h3>
+        <span class="experience-date">Jan 2025 &mdash; Present</span>
+      </div>
+      <p class="experience-role">Co-Founder</p>
     </div>
 
-    <div>
-      <h3>unreader</h3>
-      <p>2025</p>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3>unreader</h3>
+        <span class="experience-date">2025</span>
+      </div>
     </div>
 
-    <div>
-      <h3>Good Food Project</h3>
-      <p>Co-Founder</p>
-      <p>Jun 2024 — Jan 2025</p>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3>Good Food Project</h3>
+        <span class="experience-date">Jun 2024 &mdash; Jan 2025</span>
+      </div>
+      <p class="experience-role">Co-Founder</p>
     </div>
 
-    <div>
-      <h3>Polaris Fuel</h3>
-      <p>Frontend Developer</p>
-      <p>Apr 2024 — Aug 2024</p>
-      <p>Recently met this cool founder of a really interesting idea and wanted to contribute to the idea and the project as whole.</p>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3>Polaris Fuel</h3>
+        <span class="experience-date">Apr 2024 &mdash; Aug 2024</span>
+      </div>
+      <p class="experience-role">Frontend Developer</p>
+      <p class="experience-desc">Recently met this cool founder of a really interesting idea and wanted to contribute to the idea and the project as whole.</p>
     </div>
 
-    <div>
-      <h3>Criven Studios</h3>
-      <p>Co-Founder</p>
-      <p>Jan 2022 — Aug 2024</p>
-      <p>Learnt a lot about business from this role.</p>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3>Criven Studios</h3>
+        <span class="experience-date">Jan 2022 &mdash; Aug 2024</span>
+      </div>
+      <p class="experience-role">Co-Founder</p>
+      <p class="experience-desc">Learnt a lot about business from this role.</p>
     </div>
 
-    <div>
-      <h3>oJi</h3>
-      <p>Mobile Application Developer</p>
-      <p>Apr 2024 — Jun 2024</p>
-      <p>It was fun working with the team on this cool startup idea!</p>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3>oJi</h3>
+        <span class="experience-date">Apr 2024 &mdash; Jun 2024</span>
+      </div>
+      <p class="experience-role">Mobile Application Developer</p>
+      <p class="experience-desc">It was fun working with the team on this cool startup idea!</p>
     </div>
 
-    <div>
-      <h3>GoodGit</h3>
-      <p>Co-Founder</p>
-      <p>Oct 2023 — Apr 2024</p>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3>GoodGit</h3>
+        <span class="experience-date">Oct 2023 &mdash; Apr 2024</span>
+      </div>
+      <p class="experience-role">Co-Founder</p>
     </div>
 
-    <div>
-      <h3>Shubham's firm</h3>
-      <p>Frontend Web Developer &amp; UI/UX Designer</p>
-      <p>Jan 2022 — Jan 2024</p>
-      <p>Mainly worked as a frontend developer with some UI/UX work.</p>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3>Shubham's firm</h3>
+        <span class="experience-date">Jan 2022 &mdash; Jan 2024</span>
+      </div>
+      <p class="experience-role">Frontend Web Developer &amp; UI/UX Designer</p>
+      <p class="experience-desc">Mainly worked as a frontend developer with some UI/UX work.</p>
     </div>
 
-    <div>
-      <h3>MeDecode</h3>
-      <p>Frontend Web Developer</p>
-      <p>Jan 2023 — Jun 2023</p>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3>MeDecode</h3>
+        <span class="experience-date">Jan 2023 &mdash; Jun 2023</span>
+      </div>
+      <p class="experience-role">Frontend Web Developer</p>
     </div>
 
-    <div>
-      <h3>Elia</h3>
-      <p>UI/UX Designer</p>
-      <p>Aug 2022 — Feb 2023</p>
-      <p>The owner of this startup worked in Tesla, and had a cool vision for a social media. Helped with the designing part.</p>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3>Elia</h3>
+        <span class="experience-date">Aug 2022 &mdash; Feb 2023</span>
+      </div>
+      <p class="experience-role">UI/UX Designer</p>
+      <p class="experience-desc">The owner of this startup worked in Tesla, and had a cool vision for a social media. Helped with the designing part.</p>
     </div>
 
-    <div>
-      <h3>SandPark</h3>
-      <p>Web Developer</p>
-      <p>Feb 2022 — Feb 2023</p>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3>SandPark</h3>
+        <span class="experience-date">Feb 2022 &mdash; Feb 2023</span>
+      </div>
+      <p class="experience-role">Web Developer</p>
     </div>
 
-    <div>
-      <h3>DevHyperCoder</h3>
-      <p>UI/UX Designer</p>
-      <p>Jan 2022 — Jul 2022</p>
-      <p>Worked with a developer on this project, he had great knowledge of what he was doing.</p>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3>DevHyperCoder</h3>
+        <span class="experience-date">Jan 2022 &mdash; Jul 2022</span>
+      </div>
+      <p class="experience-role">UI/UX Designer</p>
+      <p class="experience-desc">Worked with a developer on this project, he had great knowledge of what he was doing.</p>
     </div>
 
-    <div>
-      <h3>Currsive</h3>
-      <p>Frontend Web Developer</p>
-      <p>Jan 2021 — Mar 2022</p>
-      <p>Currsive was the first ever startup I have ever worked on, the team was really cool and fun to work with. Learned a lot of things about web development and business there.</p>
+    <div class="experience-item">
+      <div class="experience-header">
+        <h3>Currsive</h3>
+        <span class="experience-date">Jan 2021 &mdash; Mar 2022</span>
+      </div>
+      <p class="experience-role">Frontend Web Developer</p>
+      <p class="experience-desc">Currsive was the first ever startup I have ever worked on, the team was really cool and fun to work with. Learned a lot of things about web development and business there.</p>
     </div>
   </section>
 
   <hr>
 
   <section id="education">
-    <h2>Education</h2>
-    <div>
+    <h2 class="section-label">Education</h2>
+    <div class="education-item">
       <h3>Indian Institute of Management Bangalore</h3>
-      <p>BBA, DBE</p>
-      <p>Sep 2025 — Sep 2028</p>
+      <p class="education-degree">BBA, DBE</p>
+      <p class="experience-date">Sep 2025 &mdash; Sep 2028</p>
     </div>
   </section>
 
   <hr>
 
   <section id="skills">
-    <h2>Skills</h2>
-    <div>
-      <span>Video Editing</span>
-      <span>Start-up Leadership</span>
-      <span>Artificial Intelligence</span>
-      <span>Python</span>
-      <span>JavaScript</span>
-      <span>React</span>
-      <span>C</span>
-      <span>UI/UX Design</span>
-      <span>Graphic Design</span>
-      <span>Frontend Development</span>
-      <span>Mobile Development</span>
-      <span>Product Design</span>
+    <h2 class="section-label">Skills</h2>
+    <div class="skills-container">
+      <span class="skill-tag">Video Editing</span>
+      <span class="skill-tag">Start-up Leadership</span>
+      <span class="skill-tag">Artificial Intelligence</span>
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">JavaScript</span>
+      <span class="skill-tag">React</span>
+      <span class="skill-tag">C</span>
+      <span class="skill-tag">UI/UX Design</span>
+      <span class="skill-tag">Graphic Design</span>
+      <span class="skill-tag">Frontend Development</span>
+      <span class="skill-tag">Mobile Development</span>
+      <span class="skill-tag">Product Design</span>
     </div>
-    <div>
-      <h3>Languages</h3>
+    <div class="languages-section">
+      <h3 class="subsection-label">Languages</h3>
       <p>Hindi (Native), English (Native)</p>
     </div>
   </section>
@@ -166,8 +196,8 @@
   <hr>
 
   <section id="contact">
-    <h2>Contact</h2>
-    <ul>
+    <h2 class="section-label">Contact</h2>
+    <ul class="contact-list">
       <li><a href="mailto:saketdev12@gmail.com">saketdev12@gmail.com</a></li>
       <li><a href="tel:+918894979874">8894979874</a></li>
       <li><a href="https://linkedin.com/in/codanium" target="_blank">linkedin.com/in/codanium</a></li>
