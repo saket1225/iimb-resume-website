@@ -352,3 +352,6 @@ footer p {
     gap: 4px;
   }
 }
+
+/* Final polish — subtle print-friendly adjustments */
+@media print { nav { display: none; } section { padding: 24px 0; } }
